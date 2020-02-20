@@ -6,7 +6,8 @@ In order to solve this, we need to know the rate of demand on each district sepa
 
 let's assume we reduce our problem to just a city, Tehran.
 these are the project requirements:
-1. We work with municipality districts, these polygons can be found in the OpenStreetMap data.
+1. We work with municipality districts, these polygons are available in the OpenStreetMap data.
 2. Your Application should provide a REST API to get called on each ride, you will only get latitude and longitude of the origin of the ride.
-3. Demand is a time-dependent concept, requests in the morning shouldn't take effect on the demand metric in the evening, so there should be dynamic time-window.
-4. We need to get informed of any changes in the demand state to apply it on our price in realtime.
+3. In each district, rate of the ride requests has direct correlation with the demand in that district, regardless of the district area.
+4. Demand is a time-dependent concept, requests in the morning shouldn't take effect on the demand metric in the evening, so there should be dynamic time-window.
+5. We need to get informed of any changes in the demand state to apply it on our price in realtime.
