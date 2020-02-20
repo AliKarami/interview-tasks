@@ -1,2 +1,2 @@
 # interview-tasks
-Engineering tasks used to assess candidates for various positions
+Each folder include a task that we gave to interview candidates for various engineering positions.
