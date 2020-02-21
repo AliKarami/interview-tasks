@@ -12,8 +12,8 @@ These are the project specifications:
 2. Your Application should provide a REST API to get called on each ride request and get the latitude and longitude of the origin of the ride.  
 3. The rate of the ride requests has a direct correlation with the demand in each district, regardless of the district area.  
 4. Demand is a time-dependent concept, requests in the morning shouldn't take effect on the demand indicator in the evening, so there should be dynamic time-window, e.g., #requests in the last 10 minutes.  
-5. We need to get informed of any changes in the demand rate to apply it to our price in realtime. You should give a coefficient for each district to the pricing application.  
-6. Thresholds/Coefficients should be configurable, and our pricing team should be able to modify them anytime they want, take this table as sample:
+5. Pricing application needs to get informed of any changes in the demand rate of districts to apply it to our price in realtime. So your application output should be constantly communicated with the pricing service.
+6. Thresholds/Coefficients should be configurable, and our pricing team should be able to modify them anytime they want, take this table as a sample:
 
 
 | Requests Threshold | Price Coefficient |
