@@ -33,3 +33,5 @@ You should:
 1. Design the PoC of the surge service and document your architecture briefly.  
 2. Implement the service using Golang.  
 3. Create a new public Github repository and push your solution to it.
+
+P.S: for anything which is not specified in project specifications, you're free to decide/design.
