@@ -1,4 +1,4 @@
-#Term Frequency
+# Term Frequency
 
 We want to build a multi-layer caching system on top of our search service, but the problem is if we cache every single query in the highest cache layer, it uses too much memory which is not acceptable. 
     
