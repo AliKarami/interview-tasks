@@ -20,7 +20,7 @@ These are the project specifications:
 
 
 You should:
-1. Design the PoC of the referral service and document your architecture briefly.
+1. Design the PoC of the voucher platform service and document your architecture briefly.
 2. Implement the service using Golang.
 3. Create a new public Github repository and push your solution to it.
 

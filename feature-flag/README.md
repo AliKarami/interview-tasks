@@ -21,15 +21,15 @@ These are the project specifications:
 
 Examples:
 
-| Feature           | Rule                                                 | Description                                                                                                             |
-|-------------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| Red Signup button | Globally on                                          | `red-signup-button` feature flag should return for all requests                                                         |
-| Hamburger Menu    | Partial for 10% of users                             | `hamburger-menu` feature flag should return as a feature for 10% of user ids                                            |
-| 3D View           | Minimum application version 3.1.5                    | `3d-view` feature flag should return only for users that have an application that is on version 3.1.5 or higher            |
+| Feature           | Rule                                                 | Description                                                                                                |
+|-------------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Red Signup button | Globally on                                          | `red-signup-button` feature flag should return for all requests                                            |
+| Hamburger Menu    | Partial for 10% of users                             | `hamburger-menu` feature flag should return for 10% of user ids                                            |
+| 3D View           | Minimum application version 3.1.5                    | `3d-view` feature flag should return only for users that have an application that is on version 3.1.5 or higher |
 | Show Traffic      | Partial for 40% of minimum application version 4.0.0 | `show-traffic` feature flag should return only for 40% of users that are using an application with version 4.0.0 or higher |
 
 You should:
-1. Design the PoC of the surge service and document your architecture briefly.
+1. Design the PoC of the feature flag service and document your architecture briefly.
 2. Implement the service using Golang.
 3. Create a new public Github repository and push your solution to it.
 
