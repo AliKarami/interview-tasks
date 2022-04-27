@@ -16,12 +16,12 @@ These are the project specifications:
 3. Your Application should provide a REST API to have CRUD operations on vouchers and their constraints
 4. Your Application should provide a REST API to check if a voucher is available for a specific user (based on user_id)
 5. Your Application should provide a REST API to use a voucher by a specific user (based on user_id)
-6. You're free to use any database, open-source tool, and library, but they should be dockerized. (`docker-compose.yml` should be there)
+6. You're free to use any database, open-source tool, and library, but they should be dockerized (`docker-compose.yml` should be present)
 
 
 You should:
-1. Design the PoC of the voucher platform service and document your architecture briefly.
-2. Implement the service using Golang.
-3. Create a new public Github repository and push your solution to it.
+1. Design the PoC of the voucher platform service and document your architecture briefly
+2. Implement the service using Golang/Python
+3. Create a new public Github repository and push your solution to it
 
-**P.S:** for anything not specified in project specifications, you're free to decide/design.
+**P.S:** For anything not specified in project specifications, you're free to decide/design.
