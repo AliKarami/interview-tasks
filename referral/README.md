@@ -7,7 +7,7 @@ We need to build a system to facilitate this process for us. Each user has a `us
 
 These are the project specifications:
 
-1. Your application should provide a REST API that returns the referral code of a user by getting thier `user_id`
+1. Your application should provide a REST API that returns the referral code of a user by getting their `user_id`
 2. Referral code of a user is constant, and each user has only one referral code
 3. Your application should provide a REST API for submitting a referral by getting a new user's id and a referral code.
 4. You should prevent fraud. Each user can submit only one referral code
