@@ -14,10 +14,10 @@ These are the project specifications:
     2. Partial (which specifies the percentage of users this feature should be enabled for)
     3. Minimum version (which specifies a minimum app version that this feature should be enabled on)
     4. Combination of rules 2 and 3
-3. In partial releases should be sticky for users. So if a feature is active for a specific user, it should remain active for her
+3. Partial releases should be sticky for users. So if a feature is active for a specific user, it should remain active for them
 4. Versions are not integers; we're using semantic versioning, so you should consider that when you're comparing if a version is higher or not
-5. Your Application should provide a REST API that gets an `user_id` and `version` and return the list of active feature flags
-6. You're free to use any database, open-source tool, and library, but they should be dockerized. (`docker-compose.yml` should be there)
+5. Your Application should provide a REST API that gets the `user_id` and `version` and returns the list of active feature flags
+6. You're free to use any database, open-source tool, and library, but they should be dockerized. (`docker-compose.yml` should be present)
 
 Examples:
 
@@ -29,8 +29,8 @@ Examples:
 | Show Traffic      | Partial for 40% of minimum application version 4.0.0 | `show-traffic` feature flag should return only for 40% of users that are using an application with version 4.0.0 or higher |
 
 You should:
-1. Design the PoC of the feature flag service and document your architecture briefly.
-2. Implement the service using Golang.
-3. Create a new public Github repository and push your solution to it.
+1. Design the PoC of the feature flag service and document your architecture briefly
+2. Implement the service using Golang/Python
+3. Create a new public Github repository and push your solution to it
 
 **P.S:** for anything which is not specified in project specifications, you're free to decide/design.
