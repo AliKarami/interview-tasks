@@ -3,11 +3,11 @@
 
 The referral is one of the most successful marketing strategies to earn more customers. We define some incentives for people who invite their friends to register in our application.
 
-We need to build a system to facilitate this process for us. Each user has a user_id in the database, and we need to give each user a referral code and give a prize to them once a new user registers in our system via their referral code.
+We need to build a system to facilitate this process for us. Each user has a `user_id` in the database, and we need to give each user a referral code and give a prize to them once a new user registers in our system via their referral code.
 
 These are the project specifications:
 
-1. Your application should provide a REST API that returns the referral code of a user by getting her user_id
+1. Your application should provide a REST API that returns the referral code of a user by getting thier `user_id`
 2. Referral code of a user is constant, and each user has only one referral code
 3. Your application should provide a REST API for submitting a referral by getting a new user's id and a referral code.
 4. You should prevent fraud. Each user can submit only one referral code
@@ -25,11 +25,11 @@ These are the project specifications:
 | 6                | 8 points  |
 | 7                | 13 points |
 | ...              | ...       |
-8. You're free to use any database, open-source tool, and library, but they should be dockerized. (`docker-compose.yml` should be there)
+8. You're free to use any database, open-source tool, and library, but they should be dockerized. (`docker-compose.yml` should be present)
 
 You should:
-1. Design the PoC of the referral service and document your architecture briefly.
-2. Implement the service using Golang.
-3. Create a new public Github repository and push your solution to it.
+1. Design the PoC of the referral service and document your architecture briefly
+2. Implement the service using Golang/Python
+3. Create a new public Github repository and push your solution to it
 
-**P.S:** for anything not specified in project specifications, you're free to decide/design.
+**P.S:** For anything not specified in project specifications, you're free to decide/design.
